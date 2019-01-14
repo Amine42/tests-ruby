@@ -20,3 +20,7 @@ end
 def start_of_word(str, number)
     str.slice(0...number)
 end
+
+def first_word(str)
+    str.split.first
+end
