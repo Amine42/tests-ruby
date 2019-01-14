@@ -26,5 +26,13 @@ def first_word(str)
 end
 
 def titleize(str)
-    
+    array = []
+    array = str.split.map.with_index do |word, index|
+        if word.length > 3 || index == 0
+            array[index] = word.capitalize
+        else
+            array[index] = word
+        end 
+    end
+    array.join(" ")
 end
