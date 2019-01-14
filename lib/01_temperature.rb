@@ -1,5 +1,5 @@
 def ftoc(fahrenheit)
-  (fahrenheit - 32) / 1.8
+  ((fahrenheit - 32) / 1.8).round
 end
 
 def ctof(celsius)
