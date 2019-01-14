@@ -78,7 +78,7 @@ describe "#power" do
     expect(power(7, -2)).to eq(0.02040816326530612)
   end
 end
-
+git 
 describe "#factorial" do
   it "computes the factorial of 0" do
     expect(factorial(0)).to eq(1)
