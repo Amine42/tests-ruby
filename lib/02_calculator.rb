@@ -22,7 +22,6 @@ def factorial(number)
     if number == 0 || number == 1
         number = 1
     elsif number > 0
-        puts number
         factorial(number - 1) * number
     else
         puts "On ne peut pas calculer une factorielle negatif"
