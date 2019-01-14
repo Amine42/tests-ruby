@@ -26,5 +26,7 @@ def first_word(str)
 end
 
 def titleize(str)
-    
+    str.split.map(&:capitalize)*' '
 end
+
+puts titleize("the bridge over the river kwai")
