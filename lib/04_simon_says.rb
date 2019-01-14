@@ -24,3 +24,7 @@ end
 def first_word(str)
     str.split.first
 end
+
+def titleize(str)
+    
+end

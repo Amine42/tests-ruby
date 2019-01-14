@@ -61,7 +61,7 @@ describe "Simon says" do
       expect(first_word("oh dear")).to eq("oh")
     end
   end
-=begin
+
   describe "titleize" do
     it "capitalizes a word" do
       expect(titleize("jaws")).to eq("Jaws")
@@ -79,6 +79,5 @@ describe "Simon says" do
       expect(titleize("the bridge over the river kwai")).to eq("The Bridge Over the River Kwai")
     end
   end
-=end
 end
 
