@@ -16,5 +16,6 @@ def array_42(array)
   array.include?(42)
 end
 
-puts array_42([0, 3, 4, 4, 6])
-# puts reverse_upcase_noLTA('malik test lta')
+def magic_array(array)
+  array.flatten.map { |value| value * 2 }.uniq.sort.delete_if { |value| (value % 3).zero? }
+end
