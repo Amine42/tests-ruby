@@ -37,7 +37,11 @@ Basically, this is "error-driven development"... you'll keep running tests, hitt
   # GOOD:
   /Documents/my_homework/ruby
   ```
+## contributors
 
+[Malik Ahres](https://github.com/Malik42) slack pseudo: `@Malik Ahres`
+
+[Amine Bouraghda](https://github.com/Amine42) slack pseudo: `@A42`
 
 ### Credit
 
