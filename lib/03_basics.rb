@@ -12,4 +12,9 @@ def reverse_upcase_noLTA(str)
   str.upcase.reverse.tr('LTA', '')
 end
 
+def array_42(array)
+  array.include?(42)
+end
+
+puts array_42([0, 3, 4, 4, 6])
 # puts reverse_upcase_noLTA('malik test lta')
