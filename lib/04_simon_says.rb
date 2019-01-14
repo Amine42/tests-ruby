@@ -22,7 +22,5 @@ def start_of_word(str, number)
 end
 
 def first_word(str)
-    str[/\s.+/, '']
+    str.split.first
 end
-
-puts first_word("hello world")
